@@ -1,0 +1,139 @@
+{
+  "id": "eaf55cac-7b7e-4783-b085-b6e98761b5e9",
+  "version": "2.0",
+  "name": "PLATAFORMA OPENCART",
+  "url": "https://demo.opencart.com/admin/index.php?route=common/dashboard",
+  "tests": [{
+    "id": "7195102b-aee5-48a6-91ed-d857feb49c9d",
+    "name": "Escenario Pruebas 0001",
+    "commands": [{
+      "id": "a806769a-40b4-485b-8352-76e22b6b59a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/admin/index.php?route=common/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5c747bb-c362-4b12-a88e-4558aff1ee15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83f54a1a-2b3b-4626-9a20-27b2c9d47dc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fefa8bb5-a820-4db6-977a-98ffb70662a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customers",
+      "targets": [
+        ["linkText=Customers", "linkText"],
+        ["css=#menu-customer > .parent", "css:finder"],
+        ["xpath=//a[contains(text(),'Customers')]", "xpath:link"],
+        ["xpath=//li[@id='menu-customer']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#collapse33')]", "xpath:href"],
+        ["xpath=//nav/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aea674f-035f-44e3-bc49-7f9407ebaa68",
+      "comment": "",
+      "command": "click",
+      "target": "css=#collapse33 > li:nth-child(1) > a",
+      "targets": [
+        ["css=#collapse33 > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Customers')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='collapse33']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/admin/index.php?route=customer/customer&user_token=6NkXuvNztqBFODBqQz7diroyslpYxL4J')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728fc16f-e33c-464d-a2cd-6a3d3ae9482d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right > .btn-primary",
+      "targets": [
+        ["css=.pull-right > .btn-primary", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/admin/index.php?route=customer/customer/add&user_token=6NkXuvNztqBFODBqQz7diroyslpYxL4J')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6742674-0588-40b1-bc57-c48d2636e527",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right > .btn-primary",
+      "targets": [
+        ["css=.pull-right > .btn-primary", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/admin/index.php?route=customer/customer/add&user_token=6NkXuvNztqBFODBqQz7diroyslpYxL4J')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00708013-8d43-4f18-aab0-6f8a0bda8bd7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pull-right > .btn-primary",
+      "targets": [
+        ["css=.pull-right > .btn-primary", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/admin/index.php?route=customer/customer/add&user_token=6NkXuvNztqBFODBqQz7diroyslpYxL4J')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c335fabf-1cca-412b-af4a-90534135a675",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "66247f3b-0a24-47fa-bf2c-38d3e69c3889",
+    "name": "Escenario Pruebas 0002",
+    "commands": []
+  }, {
+    "id": "8d89acd4-06ec-443f-9070-4fec3c7b8046",
+    "name": "Escenario Pruebas 0003",
+    "commands": []
+  }, {
+    "id": "37f60647-9c0a-4822-809b-6fd27e962b4c",
+    "name": "Escenario Pruebas 0004",
+    "commands": []
+  }, {
+    "id": "d4687246-ead4-45b2-9ff2-22b97b60baeb",
+    "name": "Escenario Pruebas 0005",
+    "commands": []
+  }, {
+    "id": "69c07009-c744-42bd-916e-c060d9132095",
+    "name": "Escenario Pruebas 0006",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "a6615f72-9381-4de7-8b0f-d60040849c0a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.opencart.com/admin/index.php?route=common/dashboard"],
+  "plugins": []
+}
